@@ -23,7 +23,7 @@ function Candidates() {
 
   return (
     <>
-      <h1>Total Candidate Votes: {votes}</h1>
+      <h2>Total Candidate Votes: {votes}</h2>
       {
         candidates.map((candidate, index) => (
           <article key={`candidates-${index}`}>
